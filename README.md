@@ -15,3 +15,5 @@ The moest important parameater among these is commandBehavior, it will allow to 
 6. **SequentialAccess** - Provides a way for the DataReader to handle rows that contain columns with large binary values.
 7. **CloseConnection** - When the command is executed, the associated Connection object is closed when the associated DataReader object is closed.
 
+Further, as if it is expected to return multiple sets of data, it is required to define a result set(as a list of objects) and the expected output types(ex - Dtos or data modeles) with a default constructor(zero parameters). 
+
