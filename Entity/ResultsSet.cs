@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace EntityFramework.Extension.Procedure.Entity
+namespace EntityFramework.Extensions.Procedure.Entity
 {
     public class ResultsSet
     {

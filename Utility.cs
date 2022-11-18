@@ -1,5 +1,5 @@
-﻿using EntityFramework.Extension.Procedure.Entity;
-using EntityFramework.Extension.Procedure.Helper;
+﻿using EntityFramework.Extensions.Procedure.Entity;
+using EntityFramework.Extensions.Procedure.Helper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EntityFramework.Extension.Procedure
+namespace EntityFramework.Extensions.Procedure
 {
     //This is an extension class for getting multiple result set from a single sp.
     public static class StoredProcUtility

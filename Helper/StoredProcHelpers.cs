@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EntityFramework.Extension.Procedure.Helper
+namespace EntityFramework.Extensions.Procedure.Helper
 {
     public static class StoredProcHelpers
     {
