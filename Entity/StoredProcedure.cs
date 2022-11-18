@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Text;
 
-namespace EntityFramework.Procedure.Utility.Entity
+namespace EntityFramework.Extension.Procedure.Entity
 {
     public class StoredProc
     {

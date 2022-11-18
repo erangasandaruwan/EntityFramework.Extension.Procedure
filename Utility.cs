@@ -1,5 +1,5 @@
-﻿using EntityFramework.Procedure.Utility.Entity;
-using EntityFramework.Procedure.Utility.Helper;
+﻿using EntityFramework.Extension.Procedure.Entity;
+using EntityFramework.Extension.Procedure.Helper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EntityFramework.Procedure.Utility
+namespace EntityFramework.Extension.Procedure
 {
     //This is an extension class for getting multiple result set from a single sp.
     public static class StoredProcUtility
@@ -58,8 +58,9 @@ namespace EntityFramework.Procedure.Utility
         /// <param name="transaction">Sql transaction in which to enroll the stored procedure call</param>
         /// <param name="outputTypes">List of types to expect in return. Each type *must* have a default constructor.</param>
         /// <returns></returns>
-        public static async Task<ResultsSet> ReadFromStoredProcAsync(this DbContext context, string procName, CancellationToken token, IEnumerable<SqlParameter> parms = null,
-            int? commandTimeout = null, CommandBehavior commandBehavior = CommandBehavior.Default, DbTransaction transaction = null, params Type[] outputTypes)
+        public static async Task<ResultsSet> ReadFromStoredProcAsync(this DbContext context, string procName, CancellationToken token, 
+            IEnumerable<SqlParameter> parms = null, int? commandTimeout = null, CommandBehavior commandBehavior = CommandBehavior.Default, 
+            DbTransaction transaction = null, params Type[] outputTypes)
         {
             var results = new ResultsSet();
             var currentType = (null == outputTypes) ? Type.EmptyTypes.GetEnumerator() : outputTypes.GetEnumerator();
