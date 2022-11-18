@@ -1,9 +1,9 @@
-# EntityFramework.Procedure.Utility
+# EntityFramework.Extension.Procedure
 
 [![NuGet](https://img.shields.io/nuget/v/Abp.svg?style=flat-square)](https://www.nuget.org/packages/Abp)
 [![NuGet Download](https://img.shields.io/nuget/dt/Abp.svg?style=flat-square)](https://www.nuget.org/packages/Abp)
 
-## What is EntityFramework.Procedure.Utility ?
+## What is EntityFramework.Extension.Procedure ?
 This is an extension method which helps to call stored procedures with DbContext class of Microsoft.EntityFrameworkCore. 
 
 ## How it works
@@ -24,7 +24,7 @@ Further, as if it is expected to return multiple sets of data, it is required to
 
 ## Nuget Packages
 
-EntityFramework.Procedure.Utility is distributed as NuGet packages.
+EntityFramework.Extension.Procedure is distributed as NuGet packages.
 
 |Package|Status|
 |:------|:-----:|
