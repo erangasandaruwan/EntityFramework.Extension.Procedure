@@ -28,5 +28,5 @@ EntityFramework.Extension.Procedure is distributed as NuGet packages.
 
 |Package|Status|
 |:------|:-----:|
-|EntityFramework.Procedure.Utility|[![NuGet version](https://badge.fury.io/nu/Abp.svg)](https://badge.fury.io/nu/Abp)|
+|EntityFramework.Extension.Procedure|[![NuGet version](https://badge.fury.io/nu/Abp.svg)](https://badge.fury.io/nu/Abp)|
 
