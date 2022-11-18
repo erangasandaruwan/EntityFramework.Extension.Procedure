@@ -17,6 +17,11 @@ The moest important parameater among these is commandBehavior, it will allow to 
 
 Further, as if it is expected to return multiple sets of data, it is required to define a result set(as a list of objects) and the expected output types(ex - Dtos or data modeles) with a default constructor(zero parameters). 
 
+
+## Nuget Packages
+
+EntityFramework.Procedure.Utility is distributed as NuGet packages.
+
 |Package|Status|
 |:------|:-----:|
 |EntityFramework.Procedure.Utility|[![NuGet version](https://badge.fury.io/nu/Abp.svg)](https://badge.fury.io/nu/Abp)|
