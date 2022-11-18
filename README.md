@@ -19,5 +19,5 @@ Further, as if it is expected to return multiple sets of data, it is required to
 
 |Package|Status|
 |:------|:-----:|
-|Abp|[![NuGet version](https://badge.fury.io/nu/Abp.svg)](https://badge.fury.io/nu/Abp)|
+|EntityFramework.Procedure.Utility|[![NuGet version](https://badge.fury.io/nu/Abp.svg)](https://badge.fury.io/nu/Abp)|
 
