@@ -1,5 +1,8 @@
 # EntityFramework.Procedure.Utility
 
+[![NuGet](https://img.shields.io/nuget/v/Abp.svg?style=flat-square)](https://www.nuget.org/packages/Abp)
+[![NuGet Download](https://img.shields.io/nuget/dt/Abp.svg?style=flat-square)](https://www.nuget.org/packages/Abp)
+
 ## What is EntityFramework.Procedure.Utility ?
 This is an extension method which helps to call stored procedures with DbContext class of Microsoft.EntityFrameworkCore. 
 
@@ -16,6 +19,7 @@ The moest important parameater among these is commandBehavior, it will allow to 
 7. **CloseConnection** - When the command is executed, the associated Connection object is closed when the associated DataReader object is closed.
 
 Further, as if it is expected to return multiple sets of data, it is required to define a result set(as a list of objects) and the expected output types(ex - Dtos or data modeles) with a default constructor(zero parameters). 
+
 
 
 ## Nuget Packages
